@@ -95,7 +95,7 @@ function App() {
           <article className="review">
             <h5>{quote}</h5> 
             <h6>-{author}-</h6> <br/>
-            <h7>#{tags}</h7> <br/>
+            <h6>#{tags}</h6> <br/>
 
             <button className="random-btn" onClick={fetchNewQuote}>
               Generate Random Quote
